@@ -8,9 +8,12 @@ this template comes with a preconfigured .gitattributes file but feel free to ad
 
 ## itchio and ghpages auto deploy:
 you will need to generate a key for both itch.io and github.
-Save them with the following variable names in your account settings:
+Save them with the following variable names in your repository settings:
 * GH_CREDENTIALS
 * BUTLER_CREDENTIALS
+![image](https://user-images.githubusercontent.com/69282314/184680197-b607040d-7a3a-4b8a-bb3d-d670d9d0d933.png)
+
+
 
 You will need to set some Global variables at the top of the following yaml files
 * .github/workflows/godot-ci.yml
