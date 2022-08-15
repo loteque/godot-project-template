@@ -24,8 +24,8 @@ jobs:
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: web
-          ITCH_GAME: $ITCH_GAME
-          ITCH_USER: $ITCH_USER
+          ITCH_GAME: ${{ env.ITCH_GAME }}
+          ITCH_USER: ${{ env.ITCH_USER }}
           PACKAGE: web.zip
           VERSION: ${{ steps.download-web.outputs.version }}
 
@@ -44,8 +44,8 @@ jobs:
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: linux
-          ITCH_GAME: $ITCH_GAME
-          ITCH_USER: $ITCH_USER
+          ITCH_GAME: ${{ env.ITCH_GAME }}
+          ITCH_USER: ${{ env.ITCH_USER }}
           PACKAGE: linux.zip
           VERSION: ${{ steps.download-linux.outputs.version }}
           
@@ -64,8 +64,8 @@ jobs:
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: windows
-          ITCH_GAME: $ITCH_GAME
-          ITCH_USER: $ITCH_USER
+          ITCH_GAME: ${{ env.ITCH_GAME }}
+          ITCH_USER: ${{ env.ITCH_USER }}
           PACKAGE: windows.zip
           VERSION: ${{ steps.download-windows.outputs.version }}
           
@@ -84,7 +84,7 @@ jobs:
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: mac
-          ITCH_GAME: $ITCH_GAME
-          ITCH_USER: $ITCH_USER
+          ITCH_GAME: ${{ env.ITCH_GAME }}
+          ITCH_USER: ${{ env.ITCH_USER }}
           PACKAGE: mac.zip
           VERSION: ${{ steps.download-windows.outputs.version }}
