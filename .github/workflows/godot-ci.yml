@@ -6,7 +6,7 @@ on:
 
 env:
   GODOT_VERSION: 3.5
-  EXPORT_NAME: the_name_of_your_game
+  EXPORT_NAME: godot_test_framework
   PROJECT_PATH: project/
 
 jobs:
