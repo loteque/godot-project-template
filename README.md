@@ -11,12 +11,19 @@ you will need to generate a key for both itch.io and github.
 Save them with the following variable names in your repository settings:
 * GH_CREDENTIALS
 * BUTLER_CREDENTIALS
+
+Setup GH_CREDENTIALS:
+1) Create a Personal Access Token, in account settings, with the following permissions:
+  * Contents - Read and Write
+  * Metadata - Read-only
+  * Pages - Read and Write
+![Screenshot from 2023-05-26 00-22-17](https://github.com/loteque/godot-project-template/assets/69282314/563e9146-24d0-49e2-899c-8f9264daafe5)
+
+2) add Personal Acess Token as a repository secret
 ![image](https://user-images.githubusercontent.com/69282314/184680197-b607040d-7a3a-4b8a-bb3d-d670d9d0d933.png)
 
-
-
 You will need to set some Global variables at the top of the following yaml files
-* .github/workflows/godot-ci.yml
+* .github/workflows/godot-ci.yml 
 * .github/workflows/publish-to-itchio.yml
 
 ## directory structure and best practices
