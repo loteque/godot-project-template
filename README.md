@@ -1,7 +1,7 @@
 # godot-project-template
 ### (some configuration required) features: best practices dir stucture, git-LFS, itchio auto-delivery, ghpages auto-deploy
 
-## git-LFS:
+## git-LFS(optional):
 Before you push your first changes make sure you have git-lfs installed on your system:
 https://git-lfs.github.com/
 this template comes with a preconfigured .gitattributes file but feel free to add your own rules.
@@ -26,8 +26,15 @@ You will need to set some Global variables at the top of the following yaml file
 * .github/workflows/godot-ci.yml 
 * .github/workflows/publish-to-itchio.yml
 
-## directory structure and best practices
+## How to trigger the auto-deploy pipeline
+* GitHub actions will trigger an autodeploy process when it detects a tag starting with "v", For Example: ```v1.0.1```
+* Commit your changes as normal, then tag the commit: ```git tag -a v1.0 -m "summary of release changes"```
+* Push your changes with the tag: ```git push origin --tags```
+* Github Actions will detect the new tag and trigger a new automated build of the game. 
+* When it is done building it will auto-deploy an HTML5 Version to Github Pages.
+* It will release all versions you have configured to build to Itch.io.
 
+## directory structure and best practices
 * the import directory is where you keep all your working files like .psd .krita .blender etc... It is track by git-lfs.
 * the project/asset directory is where you keep all your game art, sound, etc... It is tracked by git-lfs
 * the project/src directory is where you keep all your user created source-code.
