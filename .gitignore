@@ -31,5 +31,5 @@ node_modules
 
 # windows ignores
 *.com
-*.dll
+# *.dll
 *.exe
