@@ -22,6 +22,13 @@ Setup GH_CREDENTIALS:
 2) add Personal Acess Token as a repository secret
 ![image](https://user-images.githubusercontent.com/69282314/184680197-b607040d-7a3a-4b8a-bb3d-d670d9d0d933.png)
 
+3) Make sure `read and write` permissions are set on workflows:
+![image](https://github.com/loteque/58thgodotwildjam/assets/69282314/d95e742f-ed8b-4e50-a004-b153afff4c84)
+
+4) Setup pages for the repository:
+![image](https://github.com/loteque/58thgodotwildjam/assets/69282314/3ffdaffc-a591-4490-ab46-49cb7d7fb279)
+
+
 You will need to set some Global variables at the top of the following yaml files
 * .github/workflows/godot-ci.yml 
 * .github/workflows/publish-to-itchio.yml
