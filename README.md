@@ -13,21 +13,25 @@ Save them with the following variable names in your repository settings:
 * GH_CREDENTIALS
 * BUTLER_CREDENTIALS
 
-Setup GH_CREDENTIALS:
+
+Setup GH_CREDENTIALS and github pages:
 1) Create a Personal Access Token, in account settings, with the following permissions:
   * Contents - Read and Write
   * Metadata - Read-only
   * Pages - Read and Write
-![Screenshot from 2023-05-26 00-22-17](https://github.com/loteque/godot-project-template/assets/69282314/563e9146-24d0-49e2-899c-8f9264daafe5)
+![image](https://github.com/loteque/godot-project-template/assets/69282314/7738951b-62d8-4cf2-9d2a-a7c79069109d)
 
-2) add Personal Acess Token as a repository secret
+
+2) add Personal Acess Token as a repository secret with name GH_CREDENTIALS
 ![image](https://user-images.githubusercontent.com/69282314/184680197-b607040d-7a3a-4b8a-bb3d-d670d9d0d933.png)
 
+
 3) Make sure `read and write` permissions are set on workflows:
-![image](https://github.com/loteque/58thgodotwildjam/assets/69282314/d95e742f-ed8b-4e50-a004-b153afff4c84)
+![image](https://github.com/loteque/godot-project-template/assets/69282314/7e41b9a3-d075-4689-b6bb-7893e3e88eee)
+
 
 4) Setup pages for the repository:
-![image](https://github.com/loteque/58thgodotwildjam/assets/69282314/3ffdaffc-a591-4490-ab46-49cb7d7fb279)
+![image](https://github.com/loteque/godot-project-template/assets/69282314/9d1c1f01-9047-468e-8d14-e43169b4f410)
 
 
 You will need to set some Global variables at the top of the following yaml files
