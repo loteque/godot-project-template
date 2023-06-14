@@ -5,7 +5,7 @@
 Before you push your first changes make sure you have git-lfs installed on your system:
 https://git-lfs.github.com/
 this template comes with a preconfigured .gitattributes file but feel free to add your own rules.
-you must change the filename from gitattributes-template to .gitattrbutes
+you must change the filename from gitattributes-template to .gitattributes
 
 ## itchio and ghpages auto deploy:
 you will need to generate a key for both itch.io and github.
