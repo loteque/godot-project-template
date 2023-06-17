@@ -25,6 +25,6 @@ jobs:
         godot --export "Linux/X11" /no-file
    
     - name: Run Tests
+      if: ${{ always() }}
       run: |
-        if: ${{ always() }}
         godot --path ./ -s addons/gut/gut_cmdln.gd -gexit -ginclude_subdirs -gdir=res://tests
