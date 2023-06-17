@@ -4,19 +4,24 @@ on:
   pull_request:
     branches: [ main ]
 
+env:
+  GODOT_VERSION: 3.5
+  PROJECT_PATH: project/
+
 jobs:
   test:
 
     runs-on: ubuntu-latest
 
     container:
-      image: barichello/godot-ci:3.5
+      image: barichello/godot-ci:${GODOT_VERSION}
 
     steps:
     - uses: actions/checkout@v2
 
     - name: Import Resources
       run: |
+        cd ${PROJECT_PATH}
         godot --export "Linux/X11" /no-file
 
     - name: Run Tests
