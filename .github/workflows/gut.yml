@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: godotengine/godot:latest
+      image: barichello/godot-ci:3.5
 
     steps:
     - uses: actions/checkout@v2
