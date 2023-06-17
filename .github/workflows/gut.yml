@@ -1,0 +1,20 @@
+name: GUT
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    container:
+      image: godotengine/godot:latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Run Tests
+      run: |
+        godot --path ./ -s addons/gut/gut_cmdln.gd -gexit -ginclude_subdirs -gdir=res://tests
