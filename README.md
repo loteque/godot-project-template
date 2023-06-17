@@ -1,11 +1,14 @@
 # godot-project-template
-### (some configuration required) features: best practices dir stucture, git-LFS, itchio auto-delivery, ghpages auto-deploy
+### (some configuration required) features: best practices dir stucture, git-LFS, GUT, itchio auto-delivery, ghpages auto-deploy
 
 ## git-LFS(optional):
 Before you push your first changes make sure you have git-lfs installed on your system:
 https://git-lfs.github.com/
 this template comes with a preconfigured .gitattributes file but feel free to add your own rules.
 you must change the filename from gitattributes-template to .gitattributes
+
+## GUT(optional)
+Godot Unit Tests (GUT) is configured by default to run on pull requests to main. Tests are to be placed in res://test in either the unit or integration dirs. If you don't want to use tests just don't place tests there. For more information on GUT: https://github.com/bitwes/Gut/wiki/Quick-Start
 
 ## itchio and ghpages auto deploy:
 you will need to generate a key for both itch.io and github.
