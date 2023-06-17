@@ -19,11 +19,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Import Resources
+    - name: Run Tests
       run: |
         cd ${PROJECT_PATH}
         godot --export "Linux/X11" /no-file
-
-    - name: Run Tests
-      run: |
         godot --path ./ -s addons/gut/gut_cmdln.gd -gexit -ginclude_subdirs -gdir=res://tests
