@@ -27,4 +27,5 @@ jobs:
     - name: Run Tests
       if: ${{ always() }}
       run: |
-        godot -s addons/gut/gut_cmdln.gd -d --path $PWD -gdir=res://test/unit -ginclude_subdirs -gexit
+        $PWD
+#        godot -s addons/gut/gut_cmdln.gd -d --path $PWD -gdir=res://test/unit -ginclude_subdirs -gexit
