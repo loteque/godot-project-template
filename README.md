@@ -1,6 +1,5 @@
 ![icon](https://github.com/loteque/godot-project-template/assets/69282314/9ff1f807-468a-476b-9c54-dd19b0f15aa0)
 # godot-project-template 
-## (some configuration required) 
 ## Features:
 * **GitHub pages auto-deploy**
 * **itch.io auto-delivery** 
