@@ -1,6 +1,19 @@
-![icon](https://github.com/loteque/godot-project-template/assets/69282314/9ff1f807-468a-476b-9c54-dd19b0f15aa0)
-# godot-project-template 
-## (some configuration required) 
+<table align=center border="0">
+<tr>
+<th>
+    
+![icon](https://github.com/loteque/godot-project-template/assets/69282314/9ff1f807-468a-476b-9c54-dd19b0f15aa0) 
+    
+</th>
+<th> 
+
+# godot-project-template
+Automate Project Builds and Deployment!
+
+</th>
+</tr>
+</table>
+
 ## Features:
 * **GitHub pages auto-deploy**
 * **itch.io auto-delivery** 
@@ -68,6 +81,8 @@
     👉  GODOT_VERSION: X.x    #your-godot-version probably "3.5"
     👉  EXPORT_NAME: string   #the-name-of-your-project
     ```
+    * After the godot-ci workflow completes you will find your game at <your-username>.github.io/<your-repos-name>
+    
 </details>
 <details>
   <summary>Create a butler API token:</summary>
