@@ -101,7 +101,7 @@
 
 
 ## Triggering the auto-deploy pipeline
-### _GitHub actions will trigger an autodeploy process when it detects a tag starting with "v", For Example:_ `v1.0.1`
+_GitHub actions will trigger an autodeploy process when it detects a tag starting with "v", For Example:_ `v1.0.1`
 <details>
   <summary>Commit as normal, push it, tag your commit, then push the tag:</summary>
 
