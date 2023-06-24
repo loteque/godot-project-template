@@ -1,18 +1,23 @@
-<table align=center border="0">
+<table align=right border="0">
 <tr>
 <th>
     
-![icon](https://github.com/loteque/godot-project-template/assets/69282314/9ff1f807-468a-476b-9c54-dd19b0f15aa0) 
+<img src='https://github.com/loteque/godot-project-template/assets/69282314/9ff1f807-468a-476b-9c54-dd19b0f15aa0' widtth=32 height=32 /> 
     
 </th>
-<th> 
+<th align=left> 
 
-# godot-project-template
-Automate Project Builds and Deployment!
+### **godot-project-template**
 
 </th>
 </tr>
-</table>
+<tr>
+<th>
+</th>
+<th align=left>
+    
+<details>
+<summary>Template Usage</summary>
 
 ## Features:
 * **GitHub pages auto-deploy**
@@ -150,3 +155,20 @@ Godot Unit Tests (GUT) is configured by default to run on pull requests to main.
 ## _Directory structure and best practices_
 * the project/asset directory is where you keep all your game art, sound, etc... It can be tracked by git-lfs
 * the project/src directory is where you keep the source-code. It should not be tracked by git-lfs.
+
+</details>
+</th>     
+</tr>
+</table>
+
+### YOUR PROJECT DESCRIPTION
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec diam enim. Aenean quis hendrerit elit. Fusce nec lectus laoreet, convallis neque quis, venenatis est. Curabitur sapien lorem, accumsan ut est id, tempor tristique massa. Etiam bibendum sapien urna, ut pretium mi sagittis nec. Sed aliquam nec lorem quis scelerisque. Sed vel mi sem. Pellentesque aliquet urna vitae orci vulputate viverra sed id ipsum. Mauris gravida sapien quis tellus semper, eget viverra nulla tincidunt. Ut nec rhoncus ligula, vitae varius odio. Integer malesuada nisi vitae dolor iaculis interdum. Donec maximus vehicula metus, at condimentum ante pellentesque vel. Praesent dignissim dui ut magna faucibus maximus. Sed pellentesque eu mauris eu posuere.
+
+Nunc sit amet sodales sem. Vivamus consequat ipsum sapien, vitae feugiat erat maximus et. Integer magna massa, commodo eget odio non, venenatis suscipit nibh. Sed et lorem varius, vestibulum libero a, lacinia risus. Fusce lacinia orci lacus, malesuada consectetur nisi suscipit et. Sed non elit vel ipsum malesuada suscipit. Nunc sit amet euismod eros, vel rhoncus odio. Nam pharetra maximus dolor sed viverra. Vestibulum sollicitudin sollicitudin magna, ut placerat nulla imperdiet at. Aenean dui risus, mollis tincidunt tincidunt non, facilisis ut velit. In velit ipsum, pulvinar ut malesuada vel, fermentum at dolor. Suspendisse potenti. Cras posuere, libero vitae mattis pharetra, erat orci elementum diam, vel ornare leo turpis vitae dolor. Suspendisse potenti. Ut lobortis eu felis at pretium. Aliquam convallis blandit magna.
+
+Aliquam venenatis tincidunt ante, quis tincidunt quam posuere sed. Nam vulputate nunc lectus, nec pellentesque lacus sodales vel. Proin ante metus, vehicula sed metus id, blandit pulvinar leo. Nam a turpis sit amet enim congue malesuada et quis nisi. Integer consectetur tempor mauris at euismod. Etiam volutpat lectus gravida nibh tristique egestas. Morbi vitae aliquam est.
+
+Vestibulum sed arcu a nisi commodo posuere bibendum eu arcu. Ut tincidunt massa a erat venenatis mollis. Donec ut orci ut ligula commodo rhoncus a sit amet augue. Cras ultrices interdum quam, sed gravida lectus feugiat a. Proin elementum felis ac eleifend egestas. Suspendisse ac lacus vitae nulla ornare lacinia. Suspendisse convallis, mi at dictum vehicula, mauris lacus vulputate felis, id pharetra velit turpis in diam. Nullam porttitor dui eu tortor elementum, quis ultricies magna finibus. Suspendisse vel vulputate urna. Fusce vitae dolor quis risus ultrices ultricies ac et velit.
+
+Pellentesque ullamcorper massa eget sagittis tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed dui non ante sollicitudin pretium. Aliquam et eleifend massa, non aliquam dui. Maecenas aliquam aliquet faucibus. Integer et mi non augue iaculis maximus sit amet at lacus. Pellentesque sit amet leo hendrerit, lacinia massa eu, molestie sem. Aenean commodo arcu a justo pulvinar ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam non tortor augue. Cras nec lacus porta, finibus elit ac, imperdiet velit. Nunc cursus molestie tempus. Nulla dapibus aliquet vestibulum. Aliquam a dictum velit, at pellentesque tortor. 
