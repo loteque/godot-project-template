@@ -55,7 +55,7 @@
 
 </details>
 <details>
-  <summary>Set read and write permission for the workflow:</summary>
+  <summary>Set the read and write permissions for the workflow:</summary>
 
 3) Make sure `read and write` permissions are set on workflows:
     * 👉 `https://github.com/<your-github-username>/<your-repository-name>/settings/actions`
