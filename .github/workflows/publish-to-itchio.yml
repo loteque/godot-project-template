@@ -1,14 +1,14 @@
 name: "publish to itch.io"
-on:
-  release:
-    types: [published]
+on: release
 
 env:
-  ITCH_USER: your_itchio_username
-  ITCH_GAME: the_url_stub_of_your_game
+  GODOT_VERSION: 4.2.2
+  ITCH_USER: <your-itch-username>
+  ITCH_GAME: <your-games-url-stub-on-itch>
+  BUTLER_API_KEY: ${{ secrets.BUTLER_CREDENTIALS }}
+  PROJECT_PATH: <path-to-your-project-root>
 
 jobs:
-
   release_web:
     runs-on: ubuntu-latest
     steps:
@@ -48,7 +48,7 @@ jobs:
           ITCH_USER: ${{ env.ITCH_USER }}
           PACKAGE: linux.zip
           VERSION: ${{ steps.download-linux.outputs.version }}
-          
+
   release_windows:
     runs-on: ubuntu-latest
     steps:
@@ -68,7 +68,7 @@ jobs:
           ITCH_USER: ${{ env.ITCH_USER }}
           PACKAGE: windows.zip
           VERSION: ${{ steps.download-windows.outputs.version }}
-          
+
   release_mac:
     runs-on: ubuntu-latest
     steps:
