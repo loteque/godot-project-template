@@ -8,7 +8,7 @@
 <th align=left> 
 
 ### **godot-project-template**
-
+### (Godot 4.2.2 stable)
 </th>
 </tr>
 <tr>
