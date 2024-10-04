@@ -1,12 +1,11 @@
 name: "godot-ci export"
 on:
-  workflow_dispatch:
   push:
     tags:
       - "v*"
 
 env:
-  GODOT_VERSION: 4.3
+  GODOT_VERSION: 4.2.2
   EXPORT_NAME: <name-of-you-project>
   PROJECT_PATH: <path-to-your-project-root>
 
@@ -15,7 +14,7 @@ jobs:
     name: Web Export
     runs-on: ubuntu-20.04
     container:
-      image: barichello/godot-ci:4.3
+      image: barichello/godot-ci:4.2.2
     steps:
       - name: Checkout
         uses: actions/checkout@v2
