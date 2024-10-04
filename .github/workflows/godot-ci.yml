@@ -6,8 +6,8 @@ on:
 
 env:
   GODOT_VERSION: 4.3
-  EXPORT_NAME: <name-of-you-project>
-  PROJECT_PATH: <path-to-your-project-root>
+  EXPORT_NAME: godot-project-template
+  PROJECT_PATH: project/
 
 jobs:
   export-web:
