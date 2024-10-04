@@ -1,10 +1,10 @@
 name: "godot-ci export"
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*"
 
-  workflow_dispatch
 
 env:
   GODOT_VERSION: 4.3
