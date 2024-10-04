@@ -4,7 +4,6 @@ on:
     tags:
       - "v*"
 
-on:
   workflow_dispatch
 
 env:
