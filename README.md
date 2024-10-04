@@ -1,5 +1,5 @@
 # **godot-project-template**
-### (support: Godot 4.2.2 stable)
+### support: Godot 4.3 stable (switch branches for back support)
 
 ### Features:
 * **GitHub pages auto-deploy**
@@ -116,3 +116,7 @@ Godot Unit Tests (GUT) is configured by default to run on pull requests to main.
 ### _Directory structure and best practices_
 * the project/asset directory is where you keep all your game art, sound, etc... It can be tracked by git-lfs
 * the project/src directory is where you keep the source-code. It should not be tracked by git-lfs.
+
+### this template uses Github Actions:
+https://github.com/marketplace/actions/godot-ci
+https://github.com/softprops/action-gh-release
