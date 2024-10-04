@@ -4,6 +4,9 @@ on:
     tags:
       - "v*"
 
+on:
+  workflow_dispatch
+
 env:
   GODOT_VERSION: 4.3
   EXPORT_NAME: godot-project-template
